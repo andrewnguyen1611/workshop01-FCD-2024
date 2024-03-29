@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Failover Replication to AWS DR Region on Start with AWS Elastic Disaster Recovery</title>
-    <link>https://andrewnguyen1611.github.io/workshop01-FCD-2024/3-deploydrs/3.3-failover/</link>
+    <link>http://localhost:1313/workshop01-FCD-2024/3-deploydrs/3.3-failover/</link>
     <description>Recent content in Failover Replication to AWS DR Region on Start with AWS Elastic Disaster Recovery</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="https://andrewnguyen1611.github.io/workshop01-FCD-2024/3-deploydrs/3.3-failover/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/workshop01-FCD-2024/3-deploydrs/3.3-failover/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
