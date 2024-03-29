@@ -12,21 +12,21 @@
     <title>Chuẩn bị tài nguyên :: Bắt đầu với AWS Elastic Disaster Recovery</title>
 
     
-    <link href="/workshop01-FCD-2024/css/nucleus.css?1711625557" rel="stylesheet">
-    <link href="/workshop01-FCD-2024/css/fontawesome-all.min.css?1711625557" rel="stylesheet">
-    <link href="/workshop01-FCD-2024/css/hybrid.css?1711625557" rel="stylesheet">
-    <link href="/workshop01-FCD-2024/css/featherlight.min.css?1711625557" rel="stylesheet">
-    <link href="/workshop01-FCD-2024/css/perfect-scrollbar.min.css?1711625557" rel="stylesheet">
-    <link href="/workshop01-FCD-2024/css/auto-complete.css?1711625557" rel="stylesheet">
-    <link href="/workshop01-FCD-2024/css/atom-one-dark-reasonable.css?1711625557" rel="stylesheet">
-    <link href="/workshop01-FCD-2024/css/theme.css?1711625557" rel="stylesheet">
-    <link href="/workshop01-FCD-2024/css/hugo-theme.css?1711625557" rel="stylesheet">
+    <link href="/workshop01-FCD-2024/css/nucleus.css?1711680726" rel="stylesheet">
+    <link href="/workshop01-FCD-2024/css/fontawesome-all.min.css?1711680726" rel="stylesheet">
+    <link href="/workshop01-FCD-2024/css/hybrid.css?1711680726" rel="stylesheet">
+    <link href="/workshop01-FCD-2024/css/featherlight.min.css?1711680726" rel="stylesheet">
+    <link href="/workshop01-FCD-2024/css/perfect-scrollbar.min.css?1711680726" rel="stylesheet">
+    <link href="/workshop01-FCD-2024/css/auto-complete.css?1711680726" rel="stylesheet">
+    <link href="/workshop01-FCD-2024/css/atom-one-dark-reasonable.css?1711680726" rel="stylesheet">
+    <link href="/workshop01-FCD-2024/css/theme.css?1711680726" rel="stylesheet">
+    <link href="/workshop01-FCD-2024/css/hugo-theme.css?1711680726" rel="stylesheet">
     
-    <link href="/workshop01-FCD-2024/css/theme-workshop.css?1711625557" rel="stylesheet">
+    <link href="/workshop01-FCD-2024/css/theme-workshop.css?1711680726" rel="stylesheet">
     
     
 
-    <script src="/workshop01-FCD-2024/js/jquery-3.3.1.min.js?1711625557"></script>
+    <script src="/workshop01-FCD-2024/js/jquery-3.3.1.min.js?1711680726"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/workshop01-FCD-2024/js/lunr.min.js?1711625557"></script>
-<script type="text/javascript" src="/workshop01-FCD-2024/js/auto-complete.js?1711625557"></script>
+<script type="text/javascript" src="/workshop01-FCD-2024/js/lunr.min.js?1711680726"></script>
+<script type="text/javascript" src="/workshop01-FCD-2024/js/auto-complete.js?1711680726"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/andrewnguyen1611.github.io\/workshop01-FCD-2024\/\/vi";
     
 </script>
-<script type="text/javascript" src="/workshop01-FCD-2024/js/search.js?1711625557"></script>
+<script type="text/javascript" src="/workshop01-FCD-2024/js/search.js?1711680726"></script>
 
     
   </div>
@@ -577,7 +577,7 @@
 	<h4 id="mô-tả-workshop">Mô tả workshop</h4>
 <p>Trong nội dung bài workshop này, chúng ta sẽ cùng nhau mô phỏng lại quá trình triển khai hệ thống DR cho 2 site đặt tại 2 region khác nhau trên AWS trong môi trường pubic với site gốc đặt tại Singapore và site DR đặt tại Tokyo</p>
 <p><img alt="Kiến trúc workshop" src="/workshop01-FCD-2024/images/prepare/topo.png"></p>
-<p>Trong thực tế, hạ tầng ứng dụng sẽ được đặt ở lớp private, khi đó ta cần trienr khai các đường kết nối giữa các mạng với nhau. Ví dụ như VPC peering cho 2 Region trên AWS, hay VPn site-to-site để kết nối giữ on-premise hoặc các hạ tầng Cloud khác đến AWS. Các thành phần này chúng ta sẽ cùng tìm hiểu ở các workshop tiếp theo nhé.</p>
+<p>Trong thực tế, hạ tầng ứng dụng sẽ được đặt ở lớp private, khi đó ta cần triển khai các đường kết nối giữa các mạng với nhau. Ví dụ như VPC peering cho 2 Region trên AWS, hay VPN site-to-site để kết nối giữa on-premise hoặc các hạ tầng Cloud khác đến AWS. Các thành phần này chúng ta sẽ cùng tìm hiểu ở các workshop tiếp theo nhé.</p>
 <h4 id="nội-dung">Nội dung</h4>
 <ul>
 <li><a href="/workshop01-FCD-2024/vi/2-repareresource/2.1-sourcesite/">Source Site</a></li>
@@ -813,19 +813,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/workshop01-FCD-2024/js/clipboard.min.js?1711625557"></script>
-    <script src="/workshop01-FCD-2024/js/perfect-scrollbar.min.js?1711625557"></script>
-    <script src="/workshop01-FCD-2024/js/perfect-scrollbar.jquery.min.js?1711625557"></script>
-    <script src="/workshop01-FCD-2024/js/jquery.sticky.js?1711625557"></script>
-    <script src="/workshop01-FCD-2024/js/featherlight.min.js?1711625557"></script>
-    <script src="/workshop01-FCD-2024/js/highlight.pack.js?1711625557"></script>
+    <script src="/workshop01-FCD-2024/js/clipboard.min.js?1711680726"></script>
+    <script src="/workshop01-FCD-2024/js/perfect-scrollbar.min.js?1711680726"></script>
+    <script src="/workshop01-FCD-2024/js/perfect-scrollbar.jquery.min.js?1711680726"></script>
+    <script src="/workshop01-FCD-2024/js/jquery.sticky.js?1711680726"></script>
+    <script src="/workshop01-FCD-2024/js/featherlight.min.js?1711680726"></script>
+    <script src="/workshop01-FCD-2024/js/highlight.pack.js?1711680726"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/workshop01-FCD-2024/js/modernizr.custom-3.6.0.js?1711625557"></script>
-    <script src="/workshop01-FCD-2024/js/learn.js?1711625557"></script>
-    <script src="/workshop01-FCD-2024/js/hugo-learn.js?1711625557"></script>
+    <script src="/workshop01-FCD-2024/js/modernizr.custom-3.6.0.js?1711680726"></script>
+    <script src="/workshop01-FCD-2024/js/learn.js?1711680726"></script>
+    <script src="/workshop01-FCD-2024/js/hugo-learn.js?1711680726"></script>
 
-    <link href="/workshop01-FCD-2024/mermaid/mermaid.css?1711625557" rel="stylesheet" />
-    <script src="/workshop01-FCD-2024/mermaid/mermaid.js?1711625557"></script>
+    <link href="/workshop01-FCD-2024/mermaid/mermaid.css?1711680726" rel="stylesheet" />
+    <script src="/workshop01-FCD-2024/mermaid/mermaid.js?1711680726"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

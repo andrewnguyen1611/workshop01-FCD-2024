@@ -39,7 +39,7 @@
 	"title": "Chuẩn bị tài nguyên",
 	"tags": [],
 	"description": "",
-	"content": "Mô tả workshop Trong nội dung bài workshop này, chúng ta sẽ cùng nhau mô phỏng lại quá trình triển khai hệ thống DR cho 2 site đặt tại 2 region khác nhau trên AWS trong môi trường pubic với site gốc đặt tại Singapore và site DR đặt tại Tokyo\nTrong thực tế, hạ tầng ứng dụng sẽ được đặt ở lớp private, khi đó ta cần trienr khai các đường kết nối giữa các mạng với nhau. Ví dụ như VPC peering cho 2 Region trên AWS, hay VPn site-to-site để kết nối giữ on-premise hoặc các hạ tầng Cloud khác đến AWS. Các thành phần này chúng ta sẽ cùng tìm hiểu ở các workshop tiếp theo nhé.\nNội dung Source Site DR Site "
+	"content": "Mô tả workshop Trong nội dung bài workshop này, chúng ta sẽ cùng nhau mô phỏng lại quá trình triển khai hệ thống DR cho 2 site đặt tại 2 region khác nhau trên AWS trong môi trường pubic với site gốc đặt tại Singapore và site DR đặt tại Tokyo\nTrong thực tế, hạ tầng ứng dụng sẽ được đặt ở lớp private, khi đó ta cần triển khai các đường kết nối giữa các mạng với nhau. Ví dụ như VPC peering cho 2 Region trên AWS, hay VPN site-to-site để kết nối giữa on-premise hoặc các hạ tầng Cloud khác đến AWS. Các thành phần này chúng ta sẽ cùng tìm hiểu ở các workshop tiếp theo nhé.\nNội dung Source Site DR Site "
 },
 {
 	"uri": "https://andrewnguyen1611.github.io/workshop01-FCD-2024/vi/2-repareresource/2.2-drsite/",
